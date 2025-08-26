@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{background-color:#f19393;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{ color: blue;}
+
+#principal {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h2{ color: blueviolet;}
+
+p{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: larger;
+
+}

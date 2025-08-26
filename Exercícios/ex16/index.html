@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RafasCell - Sua Loja de Celulares e Eletrônicos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-mobile-alt logo-icon"></i>
+                <span>RafasCell</span>
+            </div>
+            <button class="mobile-menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#categories">Categorias</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>As melhores ofertas em celulares e eletrônicos</h1>
+            <p>Qualidade e garantia para você! •Assistência técnica Celulares
+•Notebook
+•Acessórios
+▪︎ Eletrônicos
+<p></p>Estamos nas cidades 👇🏻
+<p></p>📱São José
+📱Campeche</p>
+            <a href="#products" class="btn">Ver produtos</a>
+        </div>
+    </section>
+
+    <!-- Seção de destaques -->
+    <section class="container">
+        <h2 class="section-title" id="products">Produtos em Destaque</h2>
+        <div class="products">
+            <!-- Produto 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x400" alt="Smartphone premium com tela OLED de 6.7 polegadas em azul metálico sobre mesa de madeira">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Smartphone Premium X9</h3>
+                    <div class="product-price">R$ 3.299,00</div>
+                    <p class="product-description">Tela Super AMOLED 6.7", 256GB, 12GB RAM, Câmera Tripla 108MP</p>
+                    <button class="btn" style="width: 100%;">Comprar</button>
+                </div>
+            </div>
+            
+            <!-- Produto 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x400" alt="Notebook ultrafino em prata com teclado retroiluminado sobre fundo cinza">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Notebook Ultra Slim Pro</h3>
+                    <div class="product-price">R$ 4.599,00</div>
+                    <p class="product-description">Intel Core i7, 16GB RAM, SSD 1TB, Tela 4K 15.6"</p>
+                    <button class="btn" style="width: 100%;">Comprar</button>
+                </div>
+            </div>
+            
+            <!-- Produto 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x400" alt="Fone de ouvido sem fio com cancelamento de ruído em preto sobre fundo escuro">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Fone Bluetooth ANC Pro</h3>
+                    <div class="product-price">R$ 799,00</div>
+                    <p class="product-description">Cancelamento de Ruído, Bateria 30h, Toque de Vibração</p>
+                    <button class="btn" style="width: 100%;">Comprar</button>
+                </div>
+            </div>
+            
+            <!-- Produto 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x400" alt="Smartwatch esportivo em preto com pulseira de silicone mostrando métricas de atividade física">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Smartwatch Fitness Pro</h3>
+                    <div class="product-price">R$ 1.199,00</div>
+                    <p class="product-description">Monitor Cardíaco, Oxímetro, GPS, Resistente à Água</p>
+                    <button class="btn" style="width: 100%;">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de categorias -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Nossas Categorias</h2>
+            <div class="category-grid">
+                <!-- Categoria 1 -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="category-title">Smartphones</h3>
+                    <p>Os melhores celulares com as últimas tecnologias</p>
+                </div>
+                
+                <!-- Categoria 2 -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3 class="category-title">Notebooks</h3>
+                    <p>Alta performance para trabalho e diversão</p>
+                </div>
+                
+                <!-- Categoria 3 -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3 class="category-title">Áudio</h3>
+                    <p>Fones de ouvido e caixas de som de alta qualidade</p>
+                </div>
+                
+                <!-- Categoria 4 -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="category-title">Smartwatches</h3>
+                    <p>Para monitorar sua saúde e estilo de vida</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de benefícios -->
+    <section class="benefits" id="about">
+        <div class="container">
+            <h2 class="section-title">Por que comprar na RafasCell?</h2>
+            <div class="benefit-grid">
+                <!-- Benefício 1 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garantia Estendida</h3>
+                    <p>Todos os nossos produtos têm garantia de fábrica e ainda oferecemos opções de extensão para sua tranquilidade.</p>
+                </div>
+                
+                <!-- Benefício 2 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Entregamos em todo o Brasil com prazo reduzido e rastreamento em tempo real.</p>
+                </div>
+                
+                <!-- Benefício 3 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Parcele sem Juros</h3>
+                    <p>Até 12x sem juros no cartão ou desconto à vista no PIX.</p>
+                </div>
+                
+                <!-- Benefício 4 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Equipe especializada para tirar todas as suas dúvidas e indicar o melhor produto para você.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Coluna 1 -->
+                <div class="footer-column">
+                    <h3>Sobre a RafasCell</h3>
+                    <p>Desde 2010 levando tecnologia de qualidade com os melhores preços e atendimento personalizado.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Coluna 2 -->
+                <div class="footer-column">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Serviço</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna 3 -->
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <span>Rua das Tecnologias, 123, Centro - SP</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone-alt contact-icon"></i>
+                        <span>(11) 1234-5678</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <span>contato@rafascell.com.br</span>
+                    </div>
+                </div>
+                
+                <!-- Coluna 4 -->
+                <div class="footer-column">
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Loja Física:</p>
+                    <p>Segunda a Sexta: 9h às 18h</p>
+                    <p>Sábado: 9h às 13h</p>
+                    <p>Atendimento Online:</p>
+                    <p>24h por dia, 7 dias por semana</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 RafasCell - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile
+        const menuBtn = document.getElementById('menuBtn');
+        const menu = document.getElementById('menu');
+        
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+        
+        // Scroll suave para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Fecha o menu mobile se estiver aberto
+                if (menu.classList.contains('show')) {
+                    menu.classList.remove('show');
+                }
+            });
+        });
+        
+        // Adiciona classe de ativo ao link do menu quando a seção está visível
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav ul li a');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= sectionTop - 300) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+```
+
+🎨 **Generating images based on descriptions...**
+
+✅ **Images generated successfully! Here's your updated content:**
+
+`rafascell.html`
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RafasCell - Sua Loja de Celulares e Eletrônicos</title>
+    <style>
+        /* Reset e estilos globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Estilos do cabeçalho */
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-icon {
+            margin-right: 10px;
+            font-size: 32px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        /* Seção Hero */
+        .hero {
+            background: linear-gradient(rgba(0, 86, 179, 0.8), rgba(0, 86, 179, 0.8)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5c6b888a-a127-4a89-aa10-5a4833388a1b.png') center/cover no-repeat;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #ffcc00;
+            color: #333;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #e6b800;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Seção de destaques */
+        .section-title {
+            text-align: center;
+            margin: 60px 0 40px;
+            font-size: 2.2rem;
+            color: #0056b3;
+        }
+        
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .product-card:hover .product-image img {
+            transform: scale(1.05);
+        }
+        
+        .product-info {
+            padding: 20px;
+        }
+        
+        .product-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .product-price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0056b3;
+            margin-bottom: 15px;
+        }
+        
+        .product-description {
+            color: #666;
+            margin-bottom: 15px;
+            height: 60px;
+            overflow: hidden;
+        }
+        
+        /* Seção de categorias */
+        .categories {
+            background-color: #f0f6ff;
+            padding: 60px 0;
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .category-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            padding: 30px 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .category-icon {
+            font-size: 40px;
+            color: #0056b3;
+            margin-bottom: 15px;
+        }
+        
+        .category-title {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        /* Seção de benefícios */
+        .benefits {
+            padding: 60px 0;
+        }
+        
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .benefit-card {
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .benefit-icon {
+            font-size: 40px;
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        
+        /* Rodapé */
+        footer {
+            background-color: #1a1a1a;
+            color: #ddd;
+            padding: 60px 0 20px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column ul li a {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column ul li a:hover {
+            color: #ffcc00;
+        }
+        
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .contact-icon {
+            margin-right: 10px;
+            color: #ffcc00;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+        
+        .social-links a:hover {
+            color: #ffcc00;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: #888;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 992px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 20px;
+            }
+            
+            nav ul.show {
+                display: flex;
+            }
+            
+            nav ul li {
+                margin: 10px 0;
+                text-align: center;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-mobile-alt logo-icon"></i>
+                <span>RafasCell</span>
+            </div>
+            <button class="mobile-menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#categories">Categorias</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>As melhores ofertas em celulares e eletrônicos</h1>
+            <p>Na RafasCell você encontra os últimos lançamentos com os melhores preços e condições de pagamento. Qualidade e garantia para você!</p>
+            <a href="#products" class="btn">Ver produtos</a>
+        </div>
+    </section>
+
+    <!-- Seção de destaques -->
+    <section class="container">
+        <h2 class="section-title" id="products">Produtos em Destaque</h2>
+        <div class="products">
+            <!-- Produto 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/67258d46-fff3-4e02-9224-73886727c3c4.png" alt="Smartphone premium com tela OLED de 6.7 polegadas em azul metálico sobre mesa de madeira">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Smartphone Premium X9</h3>
+                    <div class="product-price">R$ 3.299,00</div>
+                    <p class="product-description">Tela Super AMOLED 6.7", 256GB, 12GB RAM, Câmera Tripla 108MP</p>
+                    <button class="btn" style="width: 100%;">Comprar</button>
+                </div>
+            </div>
+            
+            <!-- Produto 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b02cafc6-92ab-4f1e-b6bd-64fbc968c70b.png" alt="Notebook ultrafino em prata com teclado retroiluminado sobre fundo cinza">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Notebook Ultra Slim Pro</h3>
+                    <div class="product-price">R$ 4.599,00</div>
+                    <p class="product-description">Intel Core i7, 16GB RAM, SSD 1TB, Tela 4K 15.6"</p>
+                    <button class="btn" style="width: 100%;">Comprar</button>
+                </div>
+            </div>
+            
+            <!-- Produto 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/65d99367-1bdd-4230-9e73-49a861c917cf.png" alt="Fone de ouvido sem fio com cancelamento de ruído em preto sobre fundo escuro">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Fone Bluetooth ANC Pro</h3>
+                    <div class="product-price">R$ 799,00</div>
+                    <p class="product-description">Cancelamento de Ruído, Bateria 30h, Toque de Vibração</p>
+                    <button class="btn" style="width: 100%;">Comprar</button>
+                </div>
+            </div>
+            
+            <!-- Produto 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c368b8a6-315a-4c89-b08f-0280f78e8636.png" alt="Smartwatch esportivo em preto com pulseira de silicone mostrando métricas de atividade física">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Smartwatch Fitness Pro</h3>
+                    <div class="product-price">R$ 1.199,00</div>
+                    <p class="product-description">Monitor Cardíaco, Oxímetro, GPS, Resistente à Água</p>
+                    <button class="btn" style="width: 100%;">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de categorias -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Nossas Categorias</h2>
+            <div class="category-grid">
+                <!-- Categoria 1 -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="category-title">Smartphones</h3>
+                    <p>Os melhores celulares com as últimas tecnologias</p>
+                </div>
+                
+                <!-- Categoria 2 -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3 class="category-title">Notebooks</h3>
+                    <p>Alta performance para trabalho e diversão</p>
+                </div>
+                
+                <!-- Categoria 3 -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3 class="category-title">Áudio</h3>
+                    <p>Fones de ouvido e caixas de som de alta qualidade</p>
+                </div>
+                
+                <!-- Categoria 4 -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="category-title">Smartwatches</h3>
+                    <p>Para monitorar sua saúde e estilo de vida</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de benefícios -->
+    <section class="benefits" id="about">
+        <div class="container">
+            <h2 class="section-title">Por que comprar na RafasCell?</h2>
+            <div class="benefit-grid">
+                <!-- Benefício 1 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garantia Estendida</h3>
+                    <p>Todos os nossos produtos têm garantia de fábrica e ainda oferecemos opções de extensão para sua tranquilidade.</p>
+                </div>
+                
+                <!-- Benefício 2 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Entregamos em todo o Brasil com prazo reduzido e rastreamento em tempo real.</p>
+                </div>
+                
+                <!-- Benefício 3 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Parcele sem Juros</h3>
+                    <p>Até 12x sem juros no cartão ou desconto à vista no PIX.</p>
+                </div>
+                
+                <!-- Benefício 4 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Equipe especializada para tirar todas as suas dúvidas e indicar o melhor produto para você.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Coluna 1 -->
+                <div class="footer-column">
+                    <h3>Sobre a RafasCell</h3>
+                    <p>Desde 2019 levando tecnologia de qualidade com os melhores preços e atendimento personalizado.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Coluna 2 -->
+                <div class="footer-column">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Serviço</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna 3 -->
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <span>Rua Benjamin gerlach 921, São José, Santa Catarina 88104400</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone-alt contact-icon"></i>
+                        <span>(11) 1234-5678</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <span>contato@rafascell.com.br</span>
+                    </div>
+                </div>
+                
+                <!-- Coluna 4 -->
+                <div class="footer-column">
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Loja Física:</p>
+                    <p>Segunda a Sexta: 9h às 18h</p>
+                    <p>Sábado: 9h às 13h</p>
+                    <p>Atendimento Online:</p>
+                    <p>24h por dia, 7 dias por semana</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2023 RafasCell - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile
+        const menuBtn = document.getElementById('menuBtn');
+        const menu = document.getElementById('menu');
+        
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+        
+        // Scroll suave para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Fecha o menu mobile se estiver aberto
+                if (menu.classList.contains('show')) {
+                    menu.classList.remove('show');
+                }
+            });
+        });
+        
+        // Adiciona classe de ativo ao link do menu quando a seção está visível
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav ul li a');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= sectionTop - 300) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+```

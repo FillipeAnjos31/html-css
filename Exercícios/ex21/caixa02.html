@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:lightblue;
+            margin: 0px;
+            border-style: double;
+            border-color: black;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+            border-radius: 15px;
+            }
+        nav {
+            background-color: rgb(50, 58, 55);
+            padding: 3px;
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article {
+            background-color: lightslategray;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            
+        }
+        article > aside {
+            background-color: rgb(85, 97, 109);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+        main > section > p {
+            color: rgb(51, 149, 209);
+            border-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        article > aside {
+            color: rgb(29, 66, 66);
+        }
+        header > h1 {
+            font-size: xx-large;
+            font-family: fantasy;
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+        div#bola > img {
+            height: 100px;
+            width: 100px;
+            padding: 1px;
+            border-radius: 50%;
+            background-color: black;
+        }
+        header > h1 > img {
+            height: 200px;
+            width: 200px;
+            padding: 1px;
+            color: black;
+            background-color: black;
+            border-color: black;
+            border-radius: 15px;
+            
+        }
+        
+        </style>
+  <head>  
+</head>
+<body>
+    <header>
+        <h1><img src="https://agenciameusite.com.br/wp-content/uploads/2025/02/LOGO-05-e1740398437433-1024x257.png" alt="meu site"></h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+                <p>Tecnologias Esportes Política</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam nobis exercitationem assumenda illo dolore inventore? Facilis sunt quia, corrupti iusto cum animi blanditiis neque eligendi? Vero unde saepe eligendi.</p>
+                <aside>Escrito por Lipe anjos</aside>
+                <article>
+
+                </article>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Fillipe Anjos</p>
+    </footer>
+    <div id="bola"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_Ly3LpIlhizS-c5LLlEPjgynFNfTHl4w8A&s" alt="imagem"></div>
+    
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M&amp;Silva Presentes - Loja Online</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #8B008B;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #BA55D3;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    .produto {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin: 15px;
+      width: calc(33.33% - 40px);
+      float: left;
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 8px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .produto h3 {
+      margin: 10px 0;
+    }
+    .produto p {
+      margin-bottom: 10px;
+    }
+    .produto button {
+      background-color: #8B008B;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .produto button:hover {
+      background-color: #a020a0;
+    }
+    .clear {
+      clear: both;
+    }
+    .categoria {
+      margin-top: 40px;
+    }
+    .categoria h2 {
+      margin-bottom: 20px;
+      color: #8B008B;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: 40px auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #BA55D3;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #9932CC;
+    }
+    .agradecimento {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 40px;
+      margin: 40px auto;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #8B008B;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>M&amp;Silva Presentes</h1>
+    <p>Perfumes e Cosméticos Boticário e Natura</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#pedido">Pedido</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section id="produtos">
+      <h2>Perfumes em Destaque</h2>
+      <div class="produto">
+        <img src="img/kaiak-urbe.jpg" alt="Kaiak Urbe">
+        <h3>Kaiak Urbe - Natura</h3>
+        <p>Refrescante, moderno e marcante. 100ml</p>
+        <p><strong>R$ 159,90</strong></p>
+        <button type="button">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="img/quasar-fire.jpg" alt="Quasar Fire">
+        <h3>Quasar Fire - Boticário</h3>
+        <p>Intensidade e energia para o seu dia. 100ml</p>
+        <p><strong>R$ 149,90</strong></p>
+        <button type="button">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="img/floratta-blue.jpg" alt="Floratta Blue">
+        <h3>Floratta Blue - Boticário</h3>
+        <p>Suavidade e frescor para o dia. 75ml</p>
+        <p><strong>R$ 119,90</strong></p>
+        <button type="button">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="img/essencial-feminino.jpg" alt="Essencial Feminino">
+        <h3>Essencial Feminino - Natura</h3>
+        <p>Elegante e marcante, com notas florais. 100ml</p>
+        <p><strong>R$ 179,90</strong></p>
+        <button type="button">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="clear"></div>
+    </section>
+
+    <section class="categoria">
+      <h2>Kits Presenteáveis</h2>
+      <div class="produto">
+        <img src="img/kit-malbec.jpg" alt="Kit Malbec">
+        <h3>Kit Malbec - Boticário</h3>
+        <p>Perfume + Desodorante + Sabonete</p>
+        <p><strong>R$ 229,90</strong></p>
+        <button type="button">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="img/kit-kaiak.jpg" alt="Kit Kaiak">
+        <h3>Kit Kaiak - Natura</h3>
+        <p>Perfume + Shampoo Cabelo &amp; Corpo</p>
+        <p><strong>R$ 199,90</strong></p>
+        <button type="button">Adicionar ao Carrinho</button>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+    <section id="pedido">
+      <h2>Formulário de Pedido</h2>
+      <form action="#agradecimento" method="post">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        <label for="telefone">Telefone para Contato:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="produto">Produto(s) Desejado(s):</label>
+        <textarea id="produto" name="produto" rows="4" required></textarea>
+
+        <button type="submit">Finalizar Pedido</button>
+      </form>
+    </section>
+
+    <section id="agradecimento" class="agradecimento">
+      <h2>Obrigado pelo seu pedido!</h2>
+      <p>Em breve entraremos em contato pelo WhatsApp para confirmar os detalhes da entrega.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>WhatsApp: (11) 99999-9999</p>
+      <p>Email: atendimento@msilvapresentes.com.br</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 M&amp;Silva Presentes - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
